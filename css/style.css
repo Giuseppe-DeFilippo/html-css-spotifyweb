@@ -1,10 +1,155 @@
+:root {
+    --color-dark: #141922;
+    --color-darkgrey: #282828;
+    --color-light: #ffffff;
+    --color-black: #000000;
+    --color-lightgrey: #c1c1c1;
+    --color-highlight: #9ae22d;
+    --color-redcolor: #ca1717;
+}
 
-
-*{
-    padding: 0;
+/* Reset */
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.debug{
+
+.debug {
     border: 1px solid red;
+}
+
+/* Generals */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #282828;
+    color: var(--color-light);
+}
+
+.wrapper {
+    background-color: #282828;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-lightgrey);
+}
+
+a:hover {
+    color: var(--color-light);
+}
+
+/* Flex Utility */
+.d-flex {
+    display: flex;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+/* Page */
+.upper-content {
+    background-color: var(--color-dark);
+    flex: 1 1 auto;
+    /* width: 100%;
+    height: calc(100vh - 100px); */
+    overflow-y: auto;
+    /* min-height: 0; */
+}
+
+/* Playbar */
+footer {
+    background-color: #282828;
+    /* height: 100px; */
+    flex: 0 0 100px;
+}
+
+/* Sidebar */
+#sidebar {
+    /* width: 230px; */
+    flex: 0 0 230px;
+    background-color: var(--color-black);
+}
+
+/* Main */
+main {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    /* height: 100%; */
+    padding: 100px 20px 20px;
+
+}
+
+.header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 230px;
+    width: calc(100% - 230px);
+    z-index: 3000;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+
+main .main-content nav a {
+    text-transform: uppercase;
+    padding: 6px 10px;
+    display: block;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+main .main-content nav a::after {
+    content: '';
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    height: 3px;
+
+}
+
+main .main-content nav a:hover::after {
+    background-color: var(--color-highlight);
+}
+
+.main-content .col {
+    width: calc(100% / 6);
+}
+
+/*img*/
+.box-img{
+    max-width: 100%;
+}
+
+
+
+/**** media queries ****/
+
+@media screen and (max-width: 996px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+    #sidebar {
+        flex: 0 0 50px;
+    }
+
+    header {
+        left: 50px;
+        width: calc(100% - 50px);
+    }
 }

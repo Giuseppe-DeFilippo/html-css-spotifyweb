@@ -214,8 +214,14 @@ border-radius: 50%;
 
 /**** media queries ****/
 
-@media screen and (max-width: 996px) {}
-
+@media screen and (max-width: 996px) {
+.box-img{
+    
+    flex-wrap: wrap;
+    
+    
+}
+}
 @media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 576px) {

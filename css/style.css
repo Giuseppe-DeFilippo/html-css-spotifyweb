@@ -133,6 +133,7 @@ main .main-content nav a:hover::after {
 /*img*/
 .box-img{
     max-width: 100%;
+    max-height: 100%;
 }
 
 

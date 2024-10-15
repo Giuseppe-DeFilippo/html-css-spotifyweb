@@ -129,8 +129,28 @@ main .main-content nav a:hover::after {
 .main-content .col {
     width: calc(100% / 6);
 }
+.h3{
+    
+    text-align: center;
+}
+.text-grey{
+color: var(--color-lightgrey);
+}
+/*padding*/
+
+
+
 
 /*img*/
+.box-img-2{
+   
+
+}
+.border{
+    height: 300px;
+    width: 300px;
+border-radius: 50%;
+}
 .box-img{
     max-width: 100%;
     height: auto;

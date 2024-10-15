@@ -64,6 +64,7 @@ a:hover {
     justify-content: space-between;
 }
 
+
 /* Page */
 .upper-content {
     background-color: var(--color-dark);
@@ -148,12 +149,21 @@ padding-bottom: 30px;
 padding-bottom: 15px;
 
 }
-
+.padding-artisti{
+padding-top: 30px;
+padding-bottom: 15px;
+}
 .padding-title2{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.padding-title3{
+padding-top: 15px;
+}
 
+.padding-img2{
+    padding-right: 15px;
+    }
 
 
 /*img*/

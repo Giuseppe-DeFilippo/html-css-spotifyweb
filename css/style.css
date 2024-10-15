@@ -15,9 +15,9 @@
     box-sizing: border-box;
 }
 
-.debug {
+/*.debug {
     border: 1px solid red;
-}
+}*/
 
 /* Generals */
 body {
@@ -59,6 +59,9 @@ a:hover {
 
 .f-wrap {
     flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
 }
 
 /* Page */
@@ -137,7 +140,19 @@ main .main-content nav a:hover::after {
 color: var(--color-lightgrey);
 }
 /*padding*/
+.padding-title{
+padding-top: 20px;
+padding-bottom: 30px;
+}
+.padding-img{
+padding-bottom: 15px;
 
+}
+
+.padding-title2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 

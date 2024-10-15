@@ -133,9 +133,38 @@ main .main-content nav a:hover::after {
 /*img*/
 .box-img{
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
 }
+.box {
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+  }
+  .play-icon {
+    width: 50px; 
+    height: 50px; 
+  }
+  
 
+  .col:hover .overlay {
+    opacity: 1; 
+}
 
 
 /**** media queries ****/

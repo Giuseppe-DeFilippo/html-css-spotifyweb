@@ -14,7 +14,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 /*.debug {
     border: 1px solid red;
 }*/
@@ -210,17 +213,18 @@ border-radius: 50%;
   .col:hover .overlay {
     opacity: 1; 
 }
+.last{
 
+}
 
 /**** media queries ****/
 
 @media screen and (max-width: 996px) {
-.box-img{
+    .main-content .col {
+        flex-wrap: wrap;
+        width: calc(100% / 4); 
+    }
     
-    flex-wrap: wrap;
-    
-    
-}
 }
 @media screen and (max-width: 768px) {}
 
@@ -233,4 +237,7 @@ border-radius: 50%;
         left: 50px;
         width: calc(100% - 50px);
     }
+    .main-content .col {
+        width: 50%;
+}
 }

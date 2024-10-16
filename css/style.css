@@ -66,6 +66,9 @@ a:hover {
 .space-between{
     justify-content: space-between;
 }
+.a-center{
+    align-items: center;
+}
 
 
 /* Page */
@@ -167,17 +170,30 @@ padding-top: 15px;
 .padding-img2{
     padding-right: 15px;
     }
-
+.margin-left{
+margin-left: 15px;
+}
 
 /*img*/
+.box-img-left{
+max-width: 15%;
+}
+.box-img-download{
+    max-width: 7%;
+
+}
 .box-img-2{
-   
+   max-width: 70%;
 
 }
 .border{
     height: 300px;
     width: 300px;
 border-radius: 50%;
+}
+.border-bottom{
+border-bottom: solid 2px var(--color-darkgrey);
+margin-right:30px ;
 }
 .box-img{
     max-width: 100%;

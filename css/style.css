@@ -410,9 +410,11 @@ margin-right:30px ;
     opacity: 0;
     transition: opacity 0.3s ease; 
   }
+
+
   .play-icon {
-    width: 50px; 
-    height: 50px; 
+    font-size: 50px; 
+    color: white;
   }
   
 

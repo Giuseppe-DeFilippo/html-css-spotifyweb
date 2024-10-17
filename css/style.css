@@ -72,9 +72,6 @@ a:hover {
 .vertical{
     vertical-align: middle;
 }
-.j-edn{
-
-}
 
 /* Page */
 .upper-content {
@@ -112,7 +109,8 @@ main {
     flex: 1 1 auto;
     overflow-y: auto;
     padding: 100px 20px 20px;
-
+    
+    
 }
 
 .header {
@@ -360,6 +358,13 @@ padding-top: 15px;
 .margin-side{
 margin
 }
+.sidebar-top{
+    height: calc(100% - 60px);
+}
+.sidebar-bot{
+    height: 60px;
+}
+
 /*
 .margin-side{
 margin-bottom:150px;
@@ -373,6 +378,7 @@ padding-right: 15px;
 }
 */
 /*button*/
+
 .button{
     margin-top: 15px;
     margin-right: 20px;
@@ -527,8 +533,10 @@ max-width: 40%;
 display: block;
 }
 .img-circle{
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: flex;
+    width:220px;
+    height: 220px;
+    
 }
 .box-img-dw{
     max-width: 22px;

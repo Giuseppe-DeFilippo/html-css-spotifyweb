@@ -571,5 +571,8 @@ hr{
 .margin-bot-2{
     padding-bottom: 20px;
 }
+.player-right{
+    display: none;
+}
 }
 

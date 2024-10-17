@@ -125,6 +125,16 @@ main {
    justify-content: center;
  
 }
+
+/*hover della sidebar*/
+.bianco{
+    color: #b3b3b3;
+    cursor: pointer;
+}
+.bianco:hover{
+    color: white;
+}
+
 /*prova*/
 .spotify-player-bar {
     background-color: #181818;
@@ -337,6 +347,16 @@ padding-top: 15px;
 .margin-left{
 margin-left: 15px;
 }
+.margin-top{
+padding-top: 15px;
+}
+.margin-side{
+margin
+}
+/*
+.margin-side{
+margin-bottom:150px;
+}*/
 /*
 .padding-footer-button{
 padding-right: 15px;

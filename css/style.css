@@ -72,15 +72,20 @@ a:hover {
 .vertical{
     vertical-align: middle;
 }
+.j-edn{
+
+}
 
 /* Page */
 .upper-content {
+    
     background-color: var(--color-dark);
     flex: 1 1 auto;
     /* width: 100%;
     height: calc(100vh - 100px); */
     overflow-y: auto;
     /* min-height: 0; */
+    display: flex;
 }
 
 
@@ -98,6 +103,7 @@ footer {
     padding-top: 20px;
     height: 100vh;
     color: var(--color-lightgrey);
+    height: calc(100vh - 90px);
 }
 
 
@@ -295,6 +301,7 @@ main .main-content nav a {
     display: block;
     font-weight: 600;
     font-size: 0.8em;
+    
 }
 
 main .main-content nav a::after {
@@ -477,7 +484,11 @@ margin-right: 30px;
     
 }
 .logo-small{
- visibility: hidden;
+ display: none;
+width: 30px;
+margin-right: 20px;}
+.img-circle{
+
 }
 /**** media queries ****/
 
@@ -513,7 +524,14 @@ max-width: 40%;
     display: none;
 }
 .logo-small{
-
+display: block;
+}
+.img-circle{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.box-img-dw{
+    max-width: 22px;
 }
 }
 

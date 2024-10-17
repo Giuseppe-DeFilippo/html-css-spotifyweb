@@ -136,9 +136,18 @@ main {
     cursor: pointer;
 }
 .bianco:hover{
-    color: white;
+    color: white;   
 }
-
+.green{
+    
+}
+.green:hover{
+    background-color: var(--color-darkgrey);
+  color: var(--color-light);
+  border-left: 3px solid var(--color-highlight);
+  padding-left: 5px;
+  transition: all 0.3s ease;
+}
 /*prova*/
 .spotify-player-bar {
     background-color: #181818;
